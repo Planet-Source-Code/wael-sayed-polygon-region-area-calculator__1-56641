@@ -1,0 +1,67 @@
+Polygon area calculator
+
+It is an application showing a method of calculating the area of any type of polygon
+(Convex or concave)...It doesn't matter...also, it uses two methods of calculations:
+
+1- Recursive method which has never seen to be used before on the net. This is because complexity
+   and slowness. I just wanted to try it and see its results. I found it wonderful.
+
+2- Trapezoidal method which is very common over the net. It is very simple and fast.
+   I used it to compare its result with the first method. 
+
+Only one restriction must exist: any two non-consecutive sides can't be intersected.
+
+U can save the drawn polygon and re-opining it. if u drew any polygon and u found the results
+of the two methods are different, Plz, save the polygon and send it to me on
+
+
+wael_eng@hotmail.com
+
+
+Also, u can send any comments to enhance my work..I will be pleasant for that....
+
+
+how to use:
+
+
+1- run the project.
+2- u can open a ready made sample from File > Open menu.
+3- u can draw ur own polygon by using the left button of ur mouse to locate all vertices
+   except the last one. U have to use the right button to locate it. (the result of the two methods
+   will be displayed immediatly).
+4- if u want to draw a new polygon just hit F2 or click File > New.
+5- U can stop drawing ur polygon before finishing by hitting Esc.
+ 
+
+Important Issue:
+
+What to do to calculate the area of a polygon which can't be drawn on the form due to its size limitations?
+1- Open txt file and save it.
+2- In the first line, write the coordinates of the first vertix on the form X1,Y1 then press Enter
+   where X1 is X-axis component and Y1 is Y-axis component.
+3- In the Nth line write the coordinates of the Nth vertix on the form Cn,Dn then press Enter
+   where Cn = Xn - X1 and Dn = Yn - Y1.
+4- U have to consider that the X-axis goes from left to right and the Y-axis goes from top to down
+   hence the refernce point of the form is on the Top-Left corner.
+5- After closing the txt final, run the program then select the file to be opened. You will get the
+   result immediatly.
+
+
+
+Advantages:
+
+U can use this application to calculate the area of any region contained in an image file (BMP / JPG / GIF)
+like a country in a map image file. An example for Egypt map is attached. U will find the polygon file and the
+image file attached in the zip file. U can apply this for any country or city map. Just u need a precise map file
+and its drawing scale. Take care, more points u locate on the borders, more accurate result u obtain. And again,
+u have to take care about the condition mentioned above....
+
+
+Last thing I want to say:
+
+The result calculated by the application must be multiplied by the unit area according to your drawing scalse.
+This is your work......... :-)
+
+
+
+Enjoy it!!!!!!!!!!
